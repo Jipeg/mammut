@@ -1,0 +1,362 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    background-color: antiquewhite;
+    color: #191919;
+}
+
+ul {
+    text-decoration: none;
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+.wrap {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    background-color: #FFFFFF;
+    /* border: 1px solid; */
+    height: 4000px;
+}
+
+.rectangle {
+    position: absolute;
+    width: 1200px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+
+    /* background: rgba(25, 25, 25, 0.75); */
+    background: url(../img/IMAGE_left.png), url(../img/IMAGE_right.png);
+    background-repeat: no-repeat, repeat;
+    border-radius: 0px;
+
+}
+
+.free-ship {
+    position: absolute;
+    width: 138px;
+    height: 14px;
+    left: 531px;
+    top: 11px;
+
+    font-size: 10px;
+    line-height: 13px;
+    /* identical to box height, or 132% */
+
+    text-align: center;
+    letter-spacing: 0.72px;
+
+    color: #FFFFFF;
+
+}
+
+.menu {
+    position: absolute;
+    width: 38px;
+    height: 18px;
+    left: 70px;
+    top: 60px;
+
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 126% */
+
+    text-align: center;
+    letter-spacing: 0.96px;
+
+    color: #FFFFFF;
+}
+
+.search {
+    position: absolute;
+    width: 48px;
+    height: 24px;
+    left: 1088px;
+    top: 57px;
+
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    letter-spacing: 0.96px;
+
+    color: #FFFFFF;
+}
+
+.go-further-faster{
+    position: absolute;
+    height: 64px;
+    top: 526px;
+
+    line-height: 64px;
+    /* identical to box height, or 86% */
+    letter-spacing: 2.25px;
+    color: #FFFFFF;
+}
+
+.go {
+    width: 95px;
+    left: 28px;
+    font-size: 74px;
+}
+
+.further {
+    width: 223px;
+    left: 137px;
+    font-size: 69px;
+}
+
+.faster {
+    width: 189px;
+    left: 375px;
+    font-size: 68px;
+}
+
+.go-distance {
+    position: absolute;
+    width: 330px;
+    height: 38px;
+    left: 32px;
+    top: 631px;
+
+    font-size: 14px;
+    line-height: 19px;
+    /* or 134% */
+
+    letter-spacing: 0.72px;
+
+    color: #FFFFFF;
+}
+
+.discover-the-new {
+    width: 222px;
+    height: 21px;
+
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    font-size: 11px;
+    line-height: 21px;
+    /* identical to box height, or 191% */
+
+    letter-spacing: 0.84px;
+
+    color: #FFFFFF;
+}
+
+.discover-the-new-container {
+    padding-left: 1em;
+    box-sizing: border-box;
+    position: absolute;
+    width: 292px;
+    height: 38px;
+    left: 32px;
+    top: 698px;
+
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+}
+
+
+/* Следующщая секция  -------------------------------------------*/
+
+.what-do-you {
+    position: absolute;
+    /* width: 29px;
+    height: 39px; */
+    left: 32px;
+    top: 881px;
+    width: 420px;
+    
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height, or 120% */
+    letter-spacing: 1.92px;
+
+    color: #191919;
+
+}
+
+.shopping-sections {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+
+    border-radius: 0px;
+    
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height, or 132% */
+
+    text-align: center;
+    letter-spacing: 1.44px;
+    color: #FFFFFF;
+}
+
+a.shopping-sections span {
+    position: absolute;
+    top: 45%;
+    /* transform: translateY(-50%); */
+    transform: translateX(-50%);
+}
+
+a.equipment {
+    left: 448px;
+    top: 881px;
+    background: url(../img/equipment.png);
+    font-size: 20px;
+}
+
+a.clothing {
+    left: 704px;
+    top: 881px;  
+    background: url(../img/clothing.png);
+    font-size: 19px;
+}
+
+a.after-clothing {
+    left: 960px;
+    top: 881px;
+    background: url(../img/after-clothing.png);
+}
+
+/*   ---------------------------------------------------------*/
+
+.eiger-extreme {
+    position: absolute;
+    width: 1200px;
+    height: 800px;
+    left: 0px;
+    top: 1169px;
+
+    background: url(../img/eiger-extreme1.png), url(../img/eiger-extreme2.png);
+    background-repeat: no-repeat, repeat;
+    border-radius: 0px;
+    color: #FFFFFF;
+}
+
+h1.eiger {
+    position: absolute;
+    width: 468px;
+    height: 64px;
+    left: 28px;
+    top: 508px;
+    margin: 0;
+
+    font-size: 70px;
+    line-height: 64px;
+    /* identical to box height, or 91% */
+
+    letter-spacing: 2.25px;
+}
+p.eiger-description {
+    position: absolute;
+    width: 367px;
+    height: 57px;
+    left: 32px;
+    top: 613px;
+
+    font-size: 12px;
+    line-height: 19px;
+    /* or 156% */
+    letter-spacing: 0.72px;
+}
+
+/* men or women */
+
+a.men {
+    position: absolute;
+    width: 558px;
+    height: 419px;
+    left: 32px;
+    top: 2070px;
+    background: url(../img/man.png);
+    border-radius: 0px;
+    }
+
+a.women {
+    position: absolute;
+    width: 558px;
+    height: 419px;
+    left: 610px;
+    top: 2070px;
+
+    background: url(../img/woman.png);
+    border-radius: 0px;
+}
+
+h2.gender {
+    position: absolute;
+    width: 62px;
+    height:     39px;
+    left: 38px;
+    top: 48px;
+    font-size: 29px;
+    line-height: 38px;
+    /* identical to box height, or 132% */
+    letter-spacing: 1.92px;
+    color: #FFFFFF;
+}
+
+p.gender {
+    position: absolute;
+    width: 154px;
+    height: 21px;
+    left: 57px;
+    top: 113px;
+    font-size: 11px;
+    line-height: 21px;
+    /* identical to box height, or 191% */
+
+    letter-spacing: 0.84px;
+
+    color: #FFFFFF;
+}
+
+/* next adventure */
+
+.next-adventure {
+    position: absolute;
+    width: 329px;
+    height: 39px;
+    left: 32px;
+    top: 2637px;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height, or 120% */
+
+    letter-spacing: 1.92px;
+}
+
+a.snowsports {
+    left: 352px;
+    top: 2637px;  
+    background: url(../img/snowsports.png);
+    font-size: 20px;
+}
+
+a.mountaineering {
+    left: 608px;
+    top: 2637px;  
+    background: url(../img/mountaineering.png);
+    font-size: 19px;
+}
+
+a.hiking {
+    left: 864px;
+    top: 2637px;  
+    background: url(../img/hiking.png);
+    font-size: 19px;
+}
